@@ -7,10 +7,11 @@
 
 # Call the function
 # Print the returned grade
+
 first_score = int(input("Enter first score: "))
 second_score = int(input("Enter second score: "))
 third_score = int(input("Enter third score: "))
-print(get_grade(first_score, second_score, third_score))
+
 
 def get_grade(first_score, second_score, third_score):
     average_score = (first_score + second_score + third_score)/3
@@ -28,4 +29,4 @@ def get_grade(first_score, second_score, third_score):
    
     return grade
     
-    
+print(get_grade(first_score, second_score, third_score))

@@ -1,7 +1,7 @@
 def reverseString(text):
     reverse_text = ""
     for char in text:
-        reversed_str = char + reversed_text      
+        reversed_text = char + reversed_text      
          
     return reversed_text
     
